@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+
+}
+nav{
+    background: #ff8800;
+    width: 100%;
+    height: 60px;
+
+}
+.banner{
+    background: url(../image/bg.jpg);
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+.bbanner input{
+    width: 600px;
+    height: 36px;
+    background: black;
+    border: navajowhite;
+    outline: none;
+    font-size: 17px;
+
+
+    
+}
+::placeholder{
+    color: red;
+}
+
+

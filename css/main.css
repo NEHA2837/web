@@ -1,0 +1,57 @@
+body{
+    background: #e3e6e6;
+
+
+}
+
+.a{
+    border: 5px solid rebeccapurple;
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 9px;
+    background-color: rgb(64, 131, 64);
+    box-shadow: 3px 5px #020001;
+
+
+
+
+}
+.b{
+    background: black;
+    color: brown;
+    text-align: center;
+    font-size: 50px;
+
+
+
+
+}
+.btn{
+    position: relative;
+    top: -10px;
+    width: 184px;
+    height: 36px;
+    background: #008b34;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 3px 5px 13px #020001;
+
+
+
+}
+.btn:hover{
+    background: yellow;
+    transition: 1s;
+
+
+
+
+}
+.a:hover{
+    background: yellow;
+    transition: 1s;
+    
+}

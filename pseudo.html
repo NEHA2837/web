@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+    <style>
+        p{
+            border: 10px solid;
+            width: 400px;
+            height: 400px;
+
+        }
+        p::before{
+            content: 'pn';
+            background-color: blue;
+            display: block;
+        }
+        p::after{
+            content: 'mits';
+            background-color: red;
+            display: block;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <h1>pseudo before and after</h1>
+    <p>Lorem ipsum dolor sit amet consectetur addit, officia. Illum repellat, debitis velit eius voluptatibus quasi at assumenda 
+    ullam magnam nam, voluptatem excepturi architecto dolor! Hic ducimus earum qui.</p>
+    
+    
+</body>
+</html>
